@@ -1,143 +1,228 @@
-.container{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav{
+overflow: hidden;
+background: #333;
+position: relative;
+display: none;
+}
+#myLinks{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+.topnav a.icon{
+    background: red;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.topnav a:hover{
     background: #ddd;
-    height: 100vh;
+    color: black;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background: #0077B6;
-    color: white;
-    padding: 0 40px;
+/* End of mobile navigation */
+
+nav{
+    background: #333;
 }
-.links{
+nav ul{
     display: flex;
 }
-.navbar a{
-    padding: 16px;
+nav ul li{
+    padding: 14px 16px;
+    list-style: none;
+}
+nav ul li a{
     color: white;
+    font-size: 18px;
     text-decoration: none;
 }
-.logout{
-    padding: 14px 16px;
+nav ul li:hover{
+    background: #ddd;
 }
-.logo{
-    padding: 16px;
+nav ul li a:hover{
+    color: black;
 }
-.navbar a.active{
-    border-radius: 30px;
-    background: rgb(45, 157, 226);
+/* End of desktop navigation */
+
+
+.section{
+    padding: 30px;
 }
-.content{
+.section h2{
+    margin-bottom: 10px;
+    color: #606060;
+}
+.section p{
+    color: #808080;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.section2{
+display: flex;
+}
+.col1{
+height: 350px;
+width: 50%;
+background: url(../Img_2/IMG_2337.JPG);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.col2{
+height: 350px;
+width: 50%;
+background: url(../Img_2/IMG_2348.JPG);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.section3{
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
 }
-.content .linkcard{
-    width: 48%;
-    height: 400px;
+.part1{
+    height: 350px;
+    width: 32%;
+    background: url(../Img_2/IMG_2337.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.content .card{
-    width: 48%;
+.part2{
+    height: 350px;
+    width: 32%;
+    background: url(../Img_2/IMG_2337.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part3{
+    height: 350px;
+    width: 32%;
+    background: url(../Img_2/IMG_2278.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#services{
+    margin-top: 20px;
+}
+#services{
+display: flex;
+justify-content: space-between;
+}
+#services .card{
+    width: 31%;
+    height: 350px;
+}
+#services .fa-cog, .fa-globe, .fa-users{
+    font-size: 45px;
+    color: gray;
+    margin-bottom: 20px;
+}
+#services p{
+    line-height: 1.4;
+    color: gray;
+    margin-top: 10px;
+}
+/* end of services */
+.footer{
     height: 100vh;
-    background: white;
-    margin-top: -30px;
-    padding: 0 30px;
-    margin-left: 20px;
+    background: #000;
+    color: #fff;
+    padding: 30px;
 }
-.card{
-    width: 48%;
-    height: 400px;
+.footer .bio p{
+margin-top: 10px;
 }
-.linkcard .cardlink{
-    display: flex;
-    background: white;
-    align-items: center;
-    padding: 0 10px;
-    margin-left: 20px;
+.footer .social{
+    padding-top: 30px;
 }
-.linkcard .cardlink .logo{
-    padding-right: 20px;
+.footer .social h4{
+    margin-bottom: 30px;
 }
- .fa-id-card{
-    color: #0077B6;
+.footer .social a{
+    text-decoration: none;
+}
+.fa-whatsapp{
+    color: #25d366;
     font-size: 20px;
 }
-.linkactivity{
-    background: white;
-    margin-top: 30px;
-    padding: 0 20px;
-    margin-left: 20px;
-    height: 130px;
-}
-.linkactivity a{
-    text-decoration: none;
-    color: #0077B6;
-    font-weight: bold;
-}
-.content .card{
-    background: white;
-    height: 100vh;
-    width: 48%;
-    margin-top: 30px;
-}
-.card a{
-    color: #0077B6;
-    text-decoration: none;
-    font-weight: bold;
-}
-.rigtcard a{
-    display: flex;
-    text-align: center;
+.fa-facebook{
+    color: #1877f2;
+    font-size: 20px;
     margin-left: 20px;
 }
-.rightcard p{
+.fa-youtube{
+    color: #FF0000;
+    font-size: 20px;
     margin-left: 20px;
+}
+.fa-twitter{
+    color: #1DA1F2;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Rights{
+    padding: 30px;
+}
+.rights p{
+    margin-top: 10px;
 }
 
 
 
-
-
-
-
-
-@media screen and (max-width:600px){
-    .navbar{
-        flex-direction: column;
-
+/* Responsive code (media device sizes) */
+@media screen and (max-width: 600px){
+    nav{
+        display: none;
     }
-    .navbar .links{
-        flex-direction: column;
-    }
-    .navbar .logout{
-        flex-direction: column;
-    }
-    .content{
-        flex-direction: column;
-    }
-    .linkcard{
-        width: 100%;
-    }
-    .card{
-        width: 100%;
-    }
-    .logout a{
+    .topnav{
         display: block;
     }
-    .content{
+    .section2{
         flex-direction: column;
     }
-    .cardlink{
-        width: 330px;
+    .col1{
+        width: 100%;
+        margin-bottom: 10px;
     }
-    .linkactivity{
-        width: 330px;
+    .col2{
+        width: 100%;
+        margin-bottom: 10px;
+        
     }
-    .rightcard{
-        width: 330px;
+    .section3{
+        flex-direction: column;
     }
-    .content .linkcard{
-        width: 48%;
-        height: 400px;
+    .part1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .part2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .part3{
+        width: 100%;
+    }
+    #services{
+        flex-direction: column;
+    }
+    #services .card{
+        width: 100%;
+        height: 300px;
+        padding: 0 20px;
     }
 }
