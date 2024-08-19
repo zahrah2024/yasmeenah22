@@ -1,0 +1,94 @@
+body{
+    background: #ccc;
+}
+.row{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+.col{
+    width: 23%;
+    height: 300px;
+    border: 1px solid #808080;
+    
+}
+.col1{
+    background: url(./Img_2/builder2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col2{
+    background: url(./Img_2/IMG_2276.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col3{
+    background: url(./Img_2/IMG_2279.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col4{
+    background: url(./Img_2/IMG_2280.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col5{
+    background: url(./Img_2/IMG_2337.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col6{
+    background: url(./Img_2/IMG_2338.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col7{
+    background: url(./Img_2/IMG_2339.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col8{
+    background: url(./Img_2/IMG_2340.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col9{
+    background: url(./Img_2/IMG_2341.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col10{
+    background: url(./Img_2/IMG_2342.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col11{
+    background: url(./Img_2/IMG_2343.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col12{
+    background: url(./Img_2/IMG_2344.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col13{
+    background: url(./Img_2/IMG_2345.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col14{
+    background: url(./Img_2/IMG_2346.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col15{
+    background: url(./Img_2/IMG_2347.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col16{
+    background: url(./Img_2/IMG_2348.JPG);
+    background-position: center;
+    background-size: cover;
+}
