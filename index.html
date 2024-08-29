@@ -3,69 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-Paypal</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/font-awesome.js"></script>
+    <title>Mobile navigation</title>
+    <script src="./JS/font-awesome.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="links">
-                <div class="logo">Logo</div>
-                <a href="" class="active">Home</a>
-                <a href="">Send</a>
-                <a href="">Wallet</a>
-                <a href="">Activity</a>
-                <a href="">Help</a>
-            </div>
-            <div class="logout">
-                <a href="">
-                    <i class="fa fa-bell"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-cog"></i>
-                </a>
-                <a href="">LOG OUT</a>
-            </div>
+    <!-- Desktop navigation -->
+    <nav>
+        <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile navigation -->
+    <div class="topnav">
+<a href="">LOGO</a>
+<div id="myLinks">
+    <a href="">News</a>
+    <a href="">Contact</a>
+    <a href="">About</a>
+    <a href="">Services</a>
+    <a href="">Gallery</a>
+
+</div>
+<!-- end of mylinks -->
+<!-- Hamburger menu -->
+<a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+</a>
+
+    </div>
+    <!-- end of navigations -->
+    <div class="section">
+        <h2>Welcome to my page</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corporis dolore, in eum amet nostrum. Dignissimos eos soluta ea excepturi possimus officia, quisquam, amet fuga eligendi nesciunt architecto incidunt dolores distinctio suscipit, porro sunt pariatur. Dignissimos fugit a odio aliquam accusamus eligendi iste aut quaerat aspernatur facere sed officia itaque vel, blanditiis illum maiores magni unde accusantium saepe ea doloribus!</p>
+        <h2>Our mission</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum nihil autem assumenda, est quod voluptatum asperiores beatae pariatur non reprehenderit, nam, incidunt perspiciatis. Minima vero, amet ut inventore expedita voluptate optio praesentium nobis excepturi nihil id in incidunt eligendi repudiandae sint ad rerum quas quo repellat assumenda autem! Dolor a reprehenderit nihil culpa cupiditate quaerat provident magni similique eius! Facilis, ducimus, sapiente aperiam voluptatum pariatur reiciendis odio possimus quia quidem recusandae voluptates unde a. Quis itaque accusamus officia voluptatibus!</p>
+        <h2>Our Vission</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam tempora cum inventore eaque dolore suscipit quibusdam, fugiat eveniet libero dolores maiores! Itaque accusamus eligendi iste, veniam odit aspernatur dolor voluptate fugit sapiente sint animi iure tempore soluta qui aut cupiditate excepturi nulla, reiciendis a similique recusandae adipisci ullam? Neque iste praesentium soluta sint dicta rem pariatur non sapiente deleniti quos iusto quas reiciendis animi odio ducimus nam incidunt, porro quisquam. Architecto optio voluptate possimus, ducimus corporis quis dignissimos blanditiis omnis recusandae pariatur aliquam eaque animi deleniti ipsum vel perspiciatis soluta.</p>
+
+    </div>
+    <!-- end of section -->
+    <div class="section2">
+        <div class="col1"></div>
+        <div class="col2"></div>
+    </div>
+    <!-- end of div -->
+    <!-- <div class="section3">
+        <div class="part1"></div>
+        <div class="part2"></div>
+        <div class="part3"></div>
+
+    </div> -->
+
+    <div id="services">
+        <div class="card">
+            <i class="fa fa-cog"></i>
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id sequi excepturi libero fuga deleniti sapiente exercitationem, iusto veritatis soluta at eligendi accusantium repellendus eius, veniam reiciendis error praesentium qui totam ad animi voluptatem commodi velit laudantium b
+
+            </p>
         </div>
-        <!-- end of nav -->
-        <div class="content">
-            <div class="linkcard">
-                <div class="cardlink">
-                    <div class="logo">
-                        <i class="fa fa- id-card"></i>
-                    </div>
-                    <div class="cardcontent">
-                        <p>link a card</p>
-                        <p>send payment in minutes</p>
-                    </div>
-                </div>
-                <!-- end of cardcontent -->
-                <div class="linkactivity">
-                    <div class="cardcontent">
-                        <p>Recent Activity</p>
-                        <p>see when money comes in,and when it goes out, <br>
-                        you will find your recent paypal activity</p>
-                        <a href="">Show all</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end of linkcard -->
-            <div class="card">
-                <h3>cards</h3>
-                <div class="rightcard">
-                    <i class="fa fa-id-card"></i>
-                    <p>shop and send payment more securely, <br>
-                    link your card now</p>
-                </div>
-                <a href="">Link a card</a>
-            </div>
+        <!-- end of card -->
+        <div class="card">
+            <i class="fa fa-globe"></i>
+            <h2>Web Hosting</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id sequi excepturi libero fuga deleniti sapiente exercitationem, iusto veritatis soluta at eligendi accusantium repellendus eius, 
+            </p>
+        </div>
+        <!-- end of card -->
+        <div class="card">
+            <i class="fa fa-users"></i>
+            <h2>Programming</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id sequi excepturi libero fuga deleniti sapiente exercitationem, iusto veritatis soluta at eligendi accusantium repellendus eius, 
+            </p>
         </div>
     </div>
+        <!-- end of card -->
+        <div class="footer">
+            <div class="Our bio">
+                <h4>Our Bio</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo accusantium voluptatum quibusdam natus recusandae quo at, soluta quod nisi provident magni possimus illum hic, modi, in quam placeat a.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptates molestiae nesciunt aliquid, esse culpa labore error odio voluptate provident fuga? Ea quos officia eum optio sequi fugit exercitationem!</p>
+        </div>
+        <!-- end of bio -->
+        <div class="social">
+            <h4>Our Social Media</h4>
+            <hr>
+            <a href="">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+        </div>
+        <!-- end of social -->
+        <div class="rights">
+            <h4>All Right Reserved</h4>
+            <hr>
+            <p>All Right Reserved &copy; 2024 Demo Design Limited</p>
+
+        </div>
     </div>
-    
-    
-      
-       
-</body>
+    </body>
 </html>
